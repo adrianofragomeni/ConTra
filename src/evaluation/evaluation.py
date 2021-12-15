@@ -21,13 +21,13 @@ class Evaluation_metrics:
         
     def get_measures_t2v(self,similarity_matrix=None):
         """ Return t2v results """
-        return single_instance_metrics(similarity_matrix[:,self.indexes], self.relevance_matrix,"t2v")
+        return single_instance_metrics(similarity_matrix[self.indexes,:], self.relevance_matrix,"t2v")
     
     
     def get_measures_v2t(self,similarity_matrix=None):
         """ Return v2t results """
 
-        return single_instance_metrics(similarity_matrix[:,self.indexes].T, self.relevance_matrix.T,"v2t")
+        return single_instance_metrics(similarity_matrix[self.indexes,:].T, self.relevance_matrix.T,"v2t")
 
     
     def get_metrics(self,similarity_matrix=None):
