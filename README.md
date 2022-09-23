@@ -17,7 +17,9 @@ The `data` folder includes the following folders:
 * `resources`: where you can find any additional resources to train/test ConTra (i.e. word vocabularies of ActivityNet Captions, YouCook2 and EPIC-KITCHENS-100).
 The `data` folder can be downloaded [here](prova). (Remember to upload all the weights in the zip file!!!!!!!!!)
 ###Training
+Code coming soon...
 ###Testing
+Code coming soon...
 ###Citation
 
 # References
