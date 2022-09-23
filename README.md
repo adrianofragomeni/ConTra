@@ -10,11 +10,11 @@ Inside the zip file there are three folders: `ActNet`, `Epic` and `YC2`. In each
 All the dependencies can be found in `ConTra_env.yml`. This project was tested with python 3.8 and pytorch 1.8.0.
 ### Data
 The `data` folder includes the following folders:
-* dataframes: where you can find the dataframes of ActivityNet Captions, YouCook2 and EPIC-KITCHENS-100.
-* features: where you can find the features of ActivityNet Captions, YouCook2 and EPIC-KITCHENS-100.
-* models:where you can find the weights of the pretrained models and the weights of any new run.
-* relevancy: where you can find the relevancy matrix of EPIC-KITCHENS-100.
-* resources: where you can find any additional resources to train/test ConTra (i.e. word vocabularies of ActivityNet Captions, YouCook2 and EPIC-KITCHENS-100).
+* `dataframes`: where you can find the dataframes of ActivityNet Captions, YouCook2 and EPIC-KITCHENS-100.
+* `features`: where you can find the features of ActivityNet Captions, YouCook2 and EPIC-KITCHENS-100.
+* `models`: where you can find the weights of the pretrained models and the weights of any new run.
+* `relevancy`: where you can find the relevancy matrix of EPIC-KITCHENS-100.
+* `resources`: where you can find any additional resources to train/test ConTra (i.e. word vocabularies of ActivityNet Captions, YouCook2 and EPIC-KITCHENS-100).
 The `data` folder can be downloaded [here](prova).
 
 # References
