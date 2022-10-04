@@ -16,7 +16,7 @@ The `data` folder includes the following folders:
 * `relevancy`: where you can find the relevancy matrix of EPIC-KITCHENS-100.
 * `resources`: where you can find any additional resources to train/test ConTra (i.e. word vocabularies of ActivityNet Captions, YouCook2 and EPIC-KITCHENS-100).
 
-The `data` folder can be downloaded [here](https://www.dropbox.com/s/di0uljsp9ech87k/data.zip?dl=0). (Remember to upload all the weights in the zip file!!!!!!!!!)
+The `data` folder can be downloaded [here](https://www.dropbox.com/s/di0uljsp9ech87k/data.zip?dl=0). #(Remember to upload all the weights in the zip file!!!!!!!!!)
 ### Training
 Code coming soon...
 ### Testing
