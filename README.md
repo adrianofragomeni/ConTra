@@ -12,11 +12,11 @@ All the dependencies can be found in `ConTra_env.yml`. This project was tested w
 The `data` folder includes the following folders:
 * `dataframes`: where you can find the dataframes of ActivityNet Captions, YouCook2 and EPIC-KITCHENS-100.
 * `features`: where you can find the features of ActivityNet Captions, YouCook2 and EPIC-KITCHENS-100.
-* `models`: where you can find the weights of the pretrained models and the weights of any new run.
+* `models`: where you can find the weights of the pretrained models (Coming soon...) and the weights of any new run.
 * `relevancy`: where you can find the relevancy matrix of EPIC-KITCHENS-100.
 * `resources`: where you can find any additional resources to train/test ConTra (i.e. word vocabularies of ActivityNet Captions, YouCook2 and EPIC-KITCHENS-100).
 
-The `data` folder can be downloaded [here](https://www.dropbox.com/s/di0uljsp9ech87k/data.zip?dl=0). #(Remember to upload all the weights in the zip file!!!!!!!!!)
+The `data` folder can be downloaded [here](https://www.dropbox.com/s/di0uljsp9ech87k/data.zip?dl=0).
 ### Training
 Code coming soon...
 ### Testing
