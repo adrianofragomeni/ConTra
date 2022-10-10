@@ -2,7 +2,7 @@
 This repo contains code and data of ConTra model used in ConTra: (Con)text (Tra)nsformer for Cross-Modal Video Retrieval.
 
 ## Features
-The video features of ActivityNet Captions, YouCook2 and EPIC-KITCHENS-100 can be found [here](https://www.dropbox.com/s/b3mhjdn3tcb3xhc/features.zip?dl=0).
+The video features of ActivityNet Captions, YouCook2 and EPIC-KITCHENS-100 can be found [here](https://www.dropbox.com/sh/kn9lp7icfzax48d/AADJFDy5l7LqdRzobtv1cXmKa?dl=0).
 Inside the zip file there are three folders: `ActNet`, `Epic` and `YC2`. In each folder there are two pickle files that contains the train and test split: `training_video_features.pkl` and `validation_video_features.pkl`.
 
 ## Quick Start Guide
