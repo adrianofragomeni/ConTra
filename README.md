@@ -1,5 +1,5 @@
 # ConTra
-This repo contains code and data of ConTra model used in ConTra: (Con)text (Tra)nsformer for Cross-Modal Video Retrieval.
+This repo contains code and data of ConTra model used in the ACCV oral paper ConTra: (Con)text (Tra)nsformer for Cross-Modal Video Retrieval.
 
 ## Features
 The video features of ActivityNet Captions, YouCook2 and EPIC-KITCHENS-100 can be found [here](https://www.dropbox.com/sh/kn9lp7icfzax48d/AADJFDy5l7LqdRzobtv1cXmKa?dl=0).
