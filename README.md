@@ -26,14 +26,11 @@ python training.py -h
 
 If you want to train the model using the best setting when only clip context on Youcook2 is used, run the following command (default values):
 ```
-python training.py --m-video 3 --m-text 0 --lambda4 1  --lambda3 0  --nlayer-video 1 --nhead-video 2 --nlayer-text 1 --nhead-text 2 --embed-dim 512 --dataset YC2
+python training.py --m-video 3 --m-text 0 --lambda1 1 --lambda2 1 --lambda3 0  --lambda4 1  --nlayer-video 1 --nhead-video 2 --nlayer-text 1 --nhead-text 2 --embed-dim 512 --dataset YC2
 
 ```
 The above code will run ConTra using only a sequence of 3 clips as input. If you want to 
-python training.py --length-context-video 1 --length-context-text 5 --lambda4 0  --lambda3 1 #m=2
-python training.py --length-context-video 1 --length-context-text 7 --lambda4 0  --lambda3 1 #m=3
-python training.py --length-context-video 1 --length-context-text 9 --lambda4 0  --lambda3 1 #m=4
-python training.py --length-context-video 1 --length-context-text 11 --lambda4 0  --lambda3 1 #m=5
+
 
 
 ### Testing
