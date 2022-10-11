@@ -23,11 +23,11 @@ The `data` folder can be downloaded [here](https://www.dropbox.com/sh/s5mc08xzjo
 
 
 ## Citation
-'markdown
+```
 @inproceedings{fragomeni2022ACCV,
   author       = {Fragomeni, Adriano and Wray, Michael and Damen, Dima}
   title        = {ConTra: (Con)text (Tra)nsformer for Cross-Modal Video Retrieval},
   booktitle    = {Proceedings of the Asian Conference on Computer Vision (ACCV)},
   year         = {2022}
 }
-'
+```
