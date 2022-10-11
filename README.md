@@ -60,9 +60,6 @@ python training.py --m-video 4 --m-text 4 --lambda1 1 --lambda2 1 --lambda3 1  -
 python training_ActNet.py --m-video 5 --m-text 5 --lambda1 1 --lambda2 1 --lambda3 1  --lambda4 1  --nlayer-video 2 --nhead-video 8 --nlayer-text 2 --nhead-text 8 --embed-dim 384 --dataset ActNet
 ```
 
-#### Train Text-Context
-
-#### Train Both-Context
 
 ### Testing
 
