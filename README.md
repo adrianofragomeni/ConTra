@@ -19,6 +19,10 @@ The `data` folder includes the following folders:
 The `data` folder can be downloaded [here](https://www.dropbox.com/sh/s5mc08xzjo0rxk6/AABofOeByCnFL9w3CLmC6DLFa?dl=0).
 ### Training
 
+To check all the settings you can change, you can run the following command:
+```
+python training.py -h
+```
 ### Testing
 
 
