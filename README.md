@@ -36,7 +36,7 @@ python training.py --m-video 4 --m-text 0 --lambda1 1 --lambda2 1 --lambda3 0  -
 #ActivityNet
 python training_ActNet.py --m-video 3 --m-text 0 --lambda1 1 --lambda2 1 --lambda3 0  --lambda4 1  --nlayer-video 2 --nhead-video 8 --nlayer-text 2 --nhead-text 8 --embed-dim 384 --dataset ActNet
 ```
-The value of ```m-text``` is always zero. Change ```m-video``` values to increase the clip context ( $$ q + 1 $$ )
+The value of ```m-text``` must be always zero. Change ```m-video``` value to increase the clip context.
 
 #### Train Text-Context
 If you want to train ConTral using the best setting on all the three datasets, run the following commands:
@@ -50,6 +50,7 @@ python training.py --m-video 0 --m-text 4 --lambda1 1 --lambda2 1 --lambda3 1  -
 #ActivityNet
 python training_ActNet.py --m-video 0 --m-text 5 --lambda1 1 --lambda2 1 --lambda3 1  --lambda4 0  --nlayer-video 2 --nhead-video 8 --nlayer-text 2 --nhead-text 8 --embed-dim 384 --dataset ActNet
 ```
+The value of ```m-video``` must be always zero. Change ```m-text``` value to increase the text context.
 
 #### Train Both-Context
 If you want to train ConTral using the best setting on all the three datasets, run the following commands:
@@ -63,6 +64,7 @@ python training.py --m-video 4 --m-text 4 --lambda1 1 --lambda2 1 --lambda3 1  -
 #ActivityNet
 python training_ActNet.py --m-video 5 --m-text 5 --lambda1 1 --lambda2 1 --lambda3 1  --lambda4 1  --nlayer-video 2 --nhead-video 8 --nlayer-text 2 --nhead-text 8 --embed-dim 384 --dataset ActNet
 ```
+The value of ```m-text``` and ```m-video``` must be always the same.
 
 ### Testing
 
