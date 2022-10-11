@@ -25,18 +25,12 @@ python training.py -h
 ```
 
 #### Train Context-Clip
-If you want to train ConTral using the best setting when only clip context on Youcook2 is used, run the following command (default values):
+If you want to train ConTral using the best setting on all the three datasets, run the following commands:
 ```
 python training.py --m-video 3 --m-text 0 --lambda1 1 --lambda2 1 --lambda3 0  --lambda4 1  --nlayer-video 1 --nhead-video 2 --nlayer-text 1 --nhead-text 2 --embed-dim 512 --dataset YC2
-```
 
-To train ConTra with the best setting when only clip context on EPIC-KITCHENS-100 is used, run the following command:
-```
 python training.py --m-video 4 --m-text 0 --lambda1 1 --lambda2 1 --lambda3 0  --lambda4 1  --nlayer-video 2 --nhead-video 8 --nlayer-text 2 --nhead-text 8 --embed-dim 512 --dataset Epic
-```
 
-To train ConTra with the best setting when only clip context on ActivitNet is used, run the following command:
-```
 python training_ActNet.py --m-video 3 --m-text 0 --lambda1 1 --lambda2 1 --lambda3 0  --lambda4 1  --nlayer-video 2 --nhead-video 8 --nlayer-text 2 --nhead-text 8 --embed-dim 384 --dataset ActNet
 ```
 
