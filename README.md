@@ -12,16 +12,22 @@ All the dependencies can be found in `ConTra_env.yml`. This project was tested w
 The `data` folder includes the following folders:
 * `dataframes`: where you can find the dataframes of ActivityNet Captions, YouCook2 and EPIC-KITCHENS-100.
 * `features`: where you can find the features of ActivityNet Captions, YouCook2 and EPIC-KITCHENS-100.
-* `models`: where you can find the weights of the pretrained models (Coming soon...) and the weights of any new run.
+* `models`: where you can find the weights of the pretrained models (ActivityNet weights coming soon...) and the weights of any new run.
 * `relevancy`: where you can find the relevancy matrix of EPIC-KITCHENS-100.
 * `resources`: where you can find any additional resources to train/test ConTra (i.e. word vocabularies of ActivityNet Captions, YouCook2 and EPIC-KITCHENS-100).
 
 The `data` folder can be downloaded [here](https://www.dropbox.com/sh/s5mc08xzjo0rxk6/AABofOeByCnFL9w3CLmC6DLFa?dl=0).
 ### Training
-Code coming soon...
+
 ### Testing
-Code coming soon...
+
 
 ## Citation
-
-# References
+'markdown
+@inproceedings{fragomeni2022ACCV,
+  author       = {Fragomeni, Adriano and Wray, Michael and Damen, Dima}
+  title        = {ConTra: (Con)text (Tra)nsformer for Cross-Modal Video Retrieval},
+  booktitle    = {Proceedings of the Asian Conference on Computer Vision (ACCV)},
+  year         = {2022}
+}
+'
