@@ -16,7 +16,7 @@ def parsing():
                         default=0)
     
     parser.add_argument("--embed-dim", type=int, help="embedding size (512 for YC2 and Epic, 384 for ActNet)",
-                        default=384)
+                        default=512)
     
     parser.add_argument("--temperature", type=float, help="Temperature parameter for contrastive loss",
                         default=0.07)
