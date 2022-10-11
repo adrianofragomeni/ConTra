@@ -14,7 +14,7 @@ The `data` folder includes the following folders:
 * `features`: where you can find the features of ActivityNet Captions, YouCook2 and EPIC-KITCHENS-100.
 * `models`: where you can find the weights of the pretrained models (ActivityNet weights coming soon...) and the weights of any new run.
 * `relevancy`: where you can find the relevancy matrix of EPIC-KITCHENS-100.
-* `resources`: where you can find any additional resources to train/test ConTra (i.e. word vocabularies of ActivityNet Captions, YouCook2 and EPIC-KITCHENS-100).
+* `resources`: where you can find any additional resources to train/test ConTra (i.e. word vocabularies of ActivityNet Captions, YouCook2 and EPIC-KITCHENS-100 as well as the model weights of the S3D model pre-trained on HowTo100M from https://github.com/antoine77340/S3D_HowTo100M).
 
 The `data` folder can be downloaded [here](https://www.dropbox.com/sh/s5mc08xzjo0rxk6/AABofOeByCnFL9w3CLmC6DLFa?dl=0).
 ### Training
